@@ -7,12 +7,11 @@
 
 - [x] Chat UI @rudrakshkarpe
 - [x] Login UI @rudrakshkarpe
-- [ ] Firebase Auth @prathampitty
-- [ ] FIREBASE DB @prathampitty
+- [x] Firebase Auth @prathampitty
+- [x] FIREBASE DB @prathampitty
+- [x] Add Stream Chat API @rudrakshkarpe | @prathampitty
+- [x] Add custmizations to chat UI @rudrakshkarpe | @prathampitty
 
 
 ## 📝 To Do
-- [ ] Add Stream Chat API @rudrakshkarpe
-- [ ] Dry run with authenticaion @rudrakshkarpe
-- [ ] Add custmizations to chat UI
-- [ ] Learn more methods on API integration
+- [ ] After Exams :)
