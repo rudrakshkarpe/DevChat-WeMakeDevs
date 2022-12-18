@@ -10,12 +10,15 @@ abstract class Helpers {
     return 'https://picsum.photos/seed/$randomInt/300/300';
   }
 
+<<<<<<< HEAD
   static DateTime randomDate() {
     final random = Random();
     final currentDate = DateTime.now();
     return currentDate.subtract(Duration(seconds: random.nextInt(200000)));
   }
 
+=======
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
   static String getChannelName(Channel channel, User currentUser) {
     if (channel.name != null) {
       return channel.name!;

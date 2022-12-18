@@ -1,16 +1,29 @@
 import 'dart:async';
 
+<<<<<<< HEAD
 import 'package:DevChat/helpers.dart';
 import 'package:DevChat/widgets/display_error_message.dart';
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:DevChat/theme.dart';
 import 'package:DevChat/widgets/glowing_action_button.dart';
 import 'package:DevChat/widgets/widgets.dart';
+=======
+import 'package:chatter/helpers.dart';
+import 'package:chatter/widgets/display_error_message.dart';
+import 'package:collection/collection.dart' show IterableExtension;
+import 'package:chatter/theme.dart';
+import 'package:chatter/widgets/glowing_action_button.dart';
+import 'package:chatter/widgets/widgets.dart';
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:jiffy/jiffy.dart';
 import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
+<<<<<<< HEAD
 import 'package:DevChat/app.dart';
+=======
+import 'package:chatter/app.dart';
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
 
 class ChatScreen extends StatefulWidget {
   static Route routeWithChannel(Channel channel) => MaterialPageRoute(
@@ -60,10 +73,13 @@ class _ChatScreenState extends State<ChatScreen> {
       onTap: () => FocusScope.of(context).unfocus(),
       child: Scaffold(
         appBar: AppBar(
+<<<<<<< HEAD
           iconTheme: Theme.of(context).iconTheme,
           centerTitle: false,
           backgroundColor: Colors.transparent,
           elevation: 0,
+=======
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
           leadingWidth: 54,
           leading: Align(
             alignment: Alignment.centerRight,

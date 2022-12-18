@@ -11,6 +11,7 @@ const users = [
 ];
 
 const userGordon = DemoUser(
+<<<<<<< HEAD
   id: 'rudrakshkarpe',
   name: 'Rudraksh Karpe',
   image:
@@ -43,20 +44,66 @@ const userSahil = DemoUser(
   name: 'Eshan Kasliwal',
   image:
       'https://media.licdn.com/dms/image/C4D03AQG9XfDTFbpbiQ/profile-displayphoto-shrink_100_100/0/1657735832154?e=1677110400&v=beta&t=7fo5euWzJD6eNaG-QHGiSjASdQM4FHUG0zVX0hP659w',
+=======
+  id: 'gordon',
+  name: 'Gordon Hayes',
+  image:
+      'https://pbs.twimg.com/profile_images/1262058845192335360/Ys_-zu6W_400x400.jpg',
+);
+
+const userSalvatore = DemoUser(
+  id: 'salvatore',
+  name: 'Salvatore Giordano',
+  image:
+      'https://pbs.twimg.com/profile_images/1252869649349238787/cKVPSIyG_400x400.jpg',
+);
+
+const userSacha = DemoUser(
+  id: 'sacha',
+  name: 'Sacha Arbonel',
+  image:
+      'https://pbs.twimg.com/profile_images/1199684106193375232/IxA9XLuN_400x400.jpg',
+);
+
+const userDeven = DemoUser(
+  id: 'deven',
+  name: 'Deven Joshi',
+  image:
+      'https://pbs.twimg.com/profile_images/1371411357459832832/vIy8TO9F_400x400.jpg',
+);
+
+const userSahil = DemoUser(
+  id: 'sahil',
+  name: 'Sahil Kumar',
+  image:
+      'https://pbs.twimg.com/profile_images/1324766105127153664/q96TpY8I_400x400.jpg',
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
 );
 
 const userReuben = DemoUser(
   id: 'reuben',
+<<<<<<< HEAD
   name: 'Varun More',
   image:
       'https://media.licdn.com/dms/image/C4D03AQHtmUqVuGFsLw/profile-displayphoto-shrink_100_100/0/1668011578353?e=1677110400&v=beta&t=TFZRvh9cLDwztDoiq-3liB8zzz4Yi4FggDltFJnQPN0',
+=======
+  name: 'Reuben Turner',
+  image:
+      'https://pbs.twimg.com/profile_images/1370571324578480130/UxBBI30i_400x400.jpg',
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
 );
 
 const userNash = DemoUser(
   id: 'nash',
+<<<<<<< HEAD
   name: 'Rajas Bharambe',
   image:
       'https://media.licdn.com/dms/image/C4D03AQGd-tuV_ThLAg/profile-displayphoto-shrink_100_100/0/1626191310891?e=1677110400&v=beta&t=nJi624NvEIOjjVOT_lRlQ9UQJlcaZNHACUh-ZA2cJNA',
+=======
+  name: 'Nash Ramdial',
+  image:
+      'https://pbs.twimg.com/profile_images/1436372495381172225/4wDDMuD8_400x400.jpg',
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
 );
 
 @immutable

@@ -1,13 +1,25 @@
+<<<<<<< HEAD
 import 'package:DevChat/models/models.dart';
 import 'package:DevChat/screens/screens.dart';
 import 'package:DevChat/theme.dart';
 import 'package:DevChat/widgets/display_error_message.dart';
 import 'package:DevChat/widgets/widgets.dart';
+=======
+import 'package:chatter/models/models.dart';
+import 'package:chatter/screens/screens.dart';
+import 'package:chatter/theme.dart';
+import 'package:chatter/widgets/display_error_message.dart';
+import 'package:chatter/widgets/widgets.dart';
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
 import 'package:faker/faker.dart';
 import 'package:flutter/material.dart';
 import 'package:jiffy/jiffy.dart';
 import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
+<<<<<<< HEAD
 import 'package:DevChat/app.dart';
+=======
+import 'package:chatter/app.dart';
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
 
 import '../helpers.dart';
 

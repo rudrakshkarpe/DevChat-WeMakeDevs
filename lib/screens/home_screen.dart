@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:DevChat/pages/pages.dart';
 import 'package:DevChat/screens/screens.dart';
 import 'package:DevChat/theme.dart';
@@ -7,6 +8,21 @@ import 'package:flutter/material.dart';
 import 'package:DevChat/app.dart';
 
 class HomeScreen extends StatelessWidget {
+=======
+import 'package:chatter/pages/pages.dart';
+import 'package:chatter/screens/screens.dart';
+import 'package:chatter/theme.dart';
+import 'package:chatter/widgets/widgets.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:chatter/app.dart';
+import 'package:flutter/services.dart';
+
+class HomeScreen extends StatelessWidget {
+  static Route get route => MaterialPageRoute(
+        builder: (context) => HomeScreen(),
+      );
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
   HomeScreen({Key? key}) : super(key: key);
 
   final ValueNotifier<int> pageIndex = ValueNotifier(0);
@@ -35,6 +51,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+<<<<<<< HEAD
         iconTheme: Theme.of(context).iconTheme,
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -49,6 +66,11 @@ class HomeScreen extends StatelessWidget {
               ),
             );
           },
+=======
+        title: ValueListenableBuilder(
+          valueListenable: title,
+          builder: (BuildContext context, String value, _) => Text(value),
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
         ),
         leadingWidth: 54,
         leading: Align(
@@ -56,7 +78,11 @@ class HomeScreen extends StatelessWidget {
           child: IconBackground(
             icon: Icons.search,
             onTap: () {
+<<<<<<< HEAD
               print('TODO search');
+=======
+              logger.i('TODO search');
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
             },
           ),
         ),

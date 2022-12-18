@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 import 'package:DevChat/screens/chat_screen.dart';
 import 'package:DevChat/widgets/display_error_message.dart';
 import 'package:DevChat/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
 import 'package:DevChat/app.dart';
+=======
+import 'package:chatter/screens/chat_screen.dart';
+import 'package:chatter/widgets/display_error_message.dart';
+import 'package:chatter/widgets/widgets.dart';
+import 'package:flutter/material.dart';
+import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
+import 'package:chatter/app.dart';
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
 
 class ContactsPage extends StatelessWidget {
   const ContactsPage({Key? key}) : super(key: key);
@@ -11,9 +20,13 @@ class ContactsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return UserListCore(
+<<<<<<< HEAD
       pagination: const PaginationParams(
         limit: 20,
       ),
+=======
+      limit: 20,
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
       filter: Filter.notEqual('id', context.currentUser!.id),
       emptyBuilder: (context) {
         return const Center(child: Text('There are no users'));

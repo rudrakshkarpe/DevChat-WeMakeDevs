@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import 'package:DevChat/models/demo_users.dart';
 import 'package:DevChat/screens/screens.dart';
 import 'package:DevChat/widgets/widgets.dart';
+=======
+import 'package:chatter/models/demo_users.dart';
+import 'package:chatter/screens/screens.dart';
+import 'package:chatter/widgets/widgets.dart';
+>>>>>>> 3e3882b0fdb43e1b7900742ed56e7f9affa0658d
 import 'package:flutter/material.dart';
 import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
 
