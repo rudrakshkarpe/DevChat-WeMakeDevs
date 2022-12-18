@@ -19,4 +19,4 @@
 ## ⚒️ To-do
 - [ ] After exams! 😅 
 - [ ] Firebase intergration
-- [ ] Stream
+- [ ] Stream integration++
